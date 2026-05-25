@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FirstClass - Studio - Barbearia</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- NAVEGAÇÃO -->
+  <header>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="index.html" class="brand" aria-label="FirstClass">
+        <span class="brand-text">FirstClass</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li><a class="nav-link" href="#precos">Preços</a></li>
+        <li><a class="nav-link" href="#sobrenos">Sobre</a></li>
+        <li><a class="nav-link" href="#horarios">Horário</a></li>
+        <li><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+
+      <a href="marcacao.html" class="cta-button">Agendar</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" aria-label="Secção de boas-vindas">
+      <div class="hero-content">
+        <h1 class="hero-brand">FistClass</h1>
+        <h1 class="hero-title">O Seu Estilo,<br>Nossa Especialidade</h1>
+        <p class="hero-subtitle">Experiência profissional em cortes, barba e estilo pessoal</p>
+        <a href="marcacao.html" class="hero-cta">Agendar Agora</a>
+      </div>
+    </section>  
+  </header>
+
+
+  <!-- SERVIÇOS -->
+  <section class="servicos-section" id="servicos" aria-label="Serviços da barbearia">
+    <div class="section-header">
+      <h2>Os Nossos Serviços</h2>
+      <p class="section-subtitle">Cuidado profissional para o seu estilo</p>
+    </div>
+
+    <div class="servicos-grid">
+      <article class="servico-card">
+        <div class="servico-image">
+          <img src="imagens/cabelofc.png" alt="Corte clássico">
+        </div>
+        <div class="servico-info">
+          <h3>Corte Cabelo</h3>
+          <p>Corte clássico com acabamento à tesoura ou Corte com dêgrade para realçar os seus melhores traços.</p>
+        </div>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-image">
+          <img src="imagens/barbafc.png" alt="Barba desenhada">
+        </div>
+        <div class="servico-info">
+          <h3>Barba Desenhada</h3>
+          <p>Barba desenhada com navalha, com precisão e técnica profissional.</p>
+        </div>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-image">
+          <img src="imagens/sobrancelha.png" alt="Pacote completo">
+        </div>
+        <div class="servico-info">
+          <h3>Sobrancelhas</h3>
+          <p>Design e modelagem de sobrancelhas para realçar o seu rosto.</p>
+        </div>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-image">
+          <img src="imagens/premium.png" alt="Serviço premium">
+        </div>
+        <div class="servico-info">
+          <h3>Serviço Combo</h3>
+          <p>Combinação de serviços para um look completo e profissional.</p>
+        </div>
+      </article>
+    </div>
+  </section>  
+
+  <!-- PREÇOS -->
+  <section class="precos-section" id="precos" aria-label="Tabela de preços">
+    <div class="section-header">
+      <h2>Tabela de Preços</h2>
+      <p class="section-subtitle">Serviços de qualidade com preços acessíveis</p>
+    </div>
+
+    <div class="precos-container">
+      <div class="precos-image">
+        <img src="imagens/firstclass2.png" alt="Tabela de preços">
+      </div>
+
+      <div class="precos-table-wrapper">
+        <table class="precos-table">
+          <thead>
+            <tr>
+              <th>Serviço</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Corte Degradê</td>
+              <td class="preco">€15</td>
+            </tr>
+            <tr>
+              <td>Corte Simples</td>
+              <td class="preco">€12</td>
+            </tr>
+            <tr>
+              <td>Corte de Barba</td>
+              <td class="preco">€8</td>
+            </tr>
+            <tr>
+              <td>Sobrancelhas</td>
+              <td class="preco">€5</td>
+            </tr>
+             <tr>
+              <td>Corte Degradê + Barba</td>
+              <td class="preco">€20</td>
+            </tr>
+            <tr>
+              <td>Corte Simples + Barba</td>
+              <td class="preco">€17</td>
+            </tr>
+            <tr>
+              <td>Corte Degradê + Sobrancelhas</td>
+              <td class="preco">€17</td>
+            </tr>
+            <tr>
+              <td>Corte Simples + Sobrancelhas</td>
+              <td class="preco">€14</td>
+            </tr>
+            <tr>
+              <td>Corte Degradê + Barba + Sobrancelhas</td>
+              <td class="preco">€22</td>
+            </tr>
+            <tr>
+              <td>Corte Simples + Barba + Sobrancelhas</td>
+              <td class="preco">€19</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+ 
+<!-- SOBRE NÓS -->
+  <section class="sobrenos-section" id="sobrenos" aria-label="Sobre a FirstClass">
+    <div class="section-header">
+      <h2>Conheça-nos</h2>
+      <p class="section-subtitle">Tradição, profissionalismo e inovação</p>
+    </div>
+
+    <div class="sobrenos-container">
+      <div class="sobrenos-content">
+        <h3>Por que escolher a FirstClass?</h3>
+        <p>Somos uma equipa especializada em proporcionar o melhor serviço de barbearia. Com anos de experiência, oferecemos cortes de cabelo e barba personalizados para realçar o seu estilo único.</p>
+        <p>Na FirstClass, valorizamos a qualidade, a atenção aos detalhes e a satisfação do cliente. Venha nos visitar e experimente um atendimento excepcional!</p>
+        
+        <div class="destaques">
+          <div class="destaque-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Profissionais Experientes</span>
+          </div>
+          <div class="destaque-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Atendimento Personalizado</span>
+          </div>
+          <div class="destaque-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Ambiente Acolhedor</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sobrenos-image">
+        <img src="imagens/firstclass1.png" alt="Equipe da FirstClass">
+      </div>
+    </div>
+  </section>
+
+  <!-- HORÁRIOS -->
+  <section class="horarios-section" id="horarios" aria-label="Horários de funcionamento">
+    <div class="section-header">
+      <h2>Os  Nossos Horários</h2>
+      <p class="section-subtitle">Sempre pronto para atendê-lo</p>
+    </div>
+
+    <div class="horarios-grid">
+      <div class="horario-card">
+        <h4>Terça, Quarta e Sexta</h4>
+        <p class="horario-time">10:00 - 13:00</p>
+        <p class="horario-break">Pausa: 13:00 - 14:00</p>
+        <p class="horario-time">14:00 - 20:00</p>
+      </div>
+      <div class="horario-card">
+        <h4>Quinta</h4>
+        <p class="horario-time">13:00 - 23:00</p>
+      </div>
+      <div class="horario-card">
+        <h4>Sábado</h4>
+        <p class="horario-time">09:00 - 13:00</p>
+        <p class="horario-break">Pausa: 13:00 - 14:00</p>
+        <p class="horario-time">14:00 - 20:00</p>
+      </div>
+      <div class="horario-card closed">
+        <h4>Domingo e Segunda</h4>
+        <p class="closed-text">Encerrado</p>
+      </div>
+    </div>
+  </section>    
+
+  <!-- CONTACTO E LOCALIZAÇÃO -->
+  <section class="contacto-section" id="contacto" aria-label="Contacto e localização">
+    <div class="section-header">
+      <h2>Localização & Contacto</h2>
+      <p class="section-subtitle">Visite-nos ou entre em contacto</p>
+    </div>
+
+    <div class="contacto-container">
+      <div class="mapa-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17666.364759309632!2d-8.474335882673575!3d41.473592207187735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24573bf0f3cacb%3A0x7279bf69cbd39194!2sFirst%20Class%20Studio%20-%20Barbearia!5e1!3m2!1spt-PT!2spt!4v1779496406382!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização da FirstClass no Google Maps">
+        </iframe>
+      </div>
+
+      <div class="contacto-info">
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Endereço</h4>
+            <p>Av. do Altinho 109, 4770-522 Santa Maria de Arnoso<br>Famalicão</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <h4>Telefone</h4>
+            <p><a href="tel:939797715">939797715</a></p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:info@firstclass.com">info@firstclass.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA - AGENDAMENTO FINAL -->
+  <section class="cta-section" aria-label="Chamada para ação">
+    <h2>Pronto para transformar seu visual?</h2>
+    <p>Agende sua visita agora mesmo</p>
+    <a href="marcacao.html" class="cta-button-large">Agendar Agora</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Redes Sociais</h4>
+        <div class="social-links">
+          <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="http://tiktok.com" target="_blank" rel="noopener noreferrer" title="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <p>&copy; 2026 FirstClass Studio. Todos os direitos reservados.</p>
+      </div>
+
+      <div class="footer-section">
+        <a href="login.html" class="admin-link">Administrador</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/scroll-reveal.js"></script>
+</body>
+</html>
