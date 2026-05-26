@@ -170,7 +170,7 @@ section {
   padding: 0 3rem;
   position: relative;
   overflow: hidden;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .hero::before {
@@ -1188,6 +1188,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     padding-top: 2rem;
+    margin-top: 4rem;
   }
 
   .hero-title {
@@ -1199,6 +1200,7 @@ footer {
   .hero-brand {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    margin-top: 2rem;
   }
 
   .hero-subtitle {
@@ -1435,7 +1437,6 @@ footer {
   .confirmacao {
     min-height: 60vh;
     padding: 2rem 1rem;
-    margin-top: 5rem;
   }
 
   .confirmacao h1 {
@@ -1497,7 +1498,6 @@ footer {
 /* ==================== PÁGINAS ADICIONAIS ==================== */
 
 /* Marcação */
-
 .marcacao {
   text-align: center;
   color: var(--text-primary);
