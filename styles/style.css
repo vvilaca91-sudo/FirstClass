@@ -170,7 +170,7 @@ section {
   padding: 0 3rem;
   position: relative;
   overflow: hidden;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .hero::before {
@@ -374,7 +374,7 @@ section {
   padding: 3rem 2rem;
   text-align: center;
   border-bottom: 2px solid var(--border-color);
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .page-header h1 {
@@ -1435,6 +1435,7 @@ footer {
   .confirmacao {
     min-height: 60vh;
     padding: 2rem 1rem;
+    margin-top: 5rem;
   }
 
   .confirmacao h1 {
@@ -1496,6 +1497,7 @@ footer {
 /* ==================== PÁGINAS ADICIONAIS ==================== */
 
 /* Marcação */
+
 .marcacao {
   text-align: center;
   color: var(--text-primary);
